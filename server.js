@@ -17,8 +17,3 @@ const server = http.createServer((req, res) => {
 
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-
-/*
-https://noderestapi-pzpl--5000--f7aa08df.local-credentialless.webcontainer.io/api/products
-https://noderestapi-pzpl--5000--f7aa08df.local-credentialless.webcontainer.io/api/products/1
-*/
